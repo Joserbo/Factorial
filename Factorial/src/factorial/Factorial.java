@@ -22,12 +22,19 @@ public class Factorial {
     
     public static double factorial(long numero)
     {
-        double factorial=1;
-        for (int i=1; i<numero+1; i++)
+        if(numero >=0 && numero <= 100)
         {
-            factorial = factorial * i;
+            double factorial=1;
+            for (int i=1; i<numero+1; i++)
+            {
+                factorial = factorial * i;
+            }
+            return factorial;
         }
-        return factorial;
+        else
+        {
+            return 0;
+        }
     }
     
 }
