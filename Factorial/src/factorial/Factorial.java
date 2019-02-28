@@ -22,7 +22,7 @@ public class Factorial {
     
     public static double factorial(long numero)
     {
-        if(numero >=0 && numero <= 100)
+        if(numero >=0 && numero <= 100)  
         {
             double factorial=1;
             for (int i=1; i<numero+1; i++)
