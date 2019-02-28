@@ -24,6 +24,7 @@ public class Factorial {
     {
         if(numero >=0 && numero <= 100)  
         {
+            //f
             double factorial=1;
             for (int i=1; i<numero+1; i++)
             {
